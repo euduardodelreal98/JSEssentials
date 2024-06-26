@@ -19,6 +19,9 @@ function multiply(num1, num2 = 1)
 }
 
 console.log(multiply(2));
+
+
+//esto es otro comentario
 //es come tariogit 
 
 //Destructured Params ej.1
