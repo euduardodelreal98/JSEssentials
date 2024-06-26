@@ -19,6 +19,7 @@ function multiply(num1, num2 = 1)
 }
 
 console.log(multiply(2));
+//es come tariogit 
 
 //Destructured Params ej.1
 function showDetails([arg1, arg2])
