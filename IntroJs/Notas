@@ -1,0 +1,63 @@
+Operadores:
+	-El operador de igualdad unicamente checa por erl valor y no el data type
+	-Para comparar entre dos valores y tambien el data type  es con igualdad estricta o con triple igualdad
+	-Usando el operador de suma en string va a concatenar esos strings incluso si uno de los valores es un string.
+	eso convertira todos los otros valores en strings y loas va a concatenar.
+	-El operador typeof: usando typeof operador podemos determinar el data type de una varible.
+		-let num1 = 5;
+		-console.log('typeof', typeof num1);
+	-Exponential Operator: es usado para especificar cuantas veces un valor necesita ser multiplicado por si mismo
+		-console.log(' 10**3: ', 10 ** 3);
+*********************************************************************************************************************************		
+Notas Operadores video Lex Pt1:
+
+//Below code shows use of console.log()
+place = "Florida"
+console.log(place);// Florida
+console.log("Hello World!");// Hello World!
+
+//Below code shows difference between undefined and null
+
+//undefined
+var placeToVisit;
+console.log(placeToVisit); //undefined
+
+//null
+cabDetail = null;
+console.log(cabDetail);    //null
+
+//Double equals and tripe equals
+
+//Double equals
+// comparison between string and number
+console.log('100' == 100)   //true
+var x = 5;   // number
+var y = '5' // string
+console.log(x == y)    // true
+
+//Tripe quals
+// comparison between string and number
+console.log('100' === 100)   // false
+var x = 5; // number
+var y = '5' // string
+console.log(x === y)  // false
+
+Notas Operadores video Lex Pt2:
+// use of + operator on string
+console.log('hello' + ' world!'); // 'hello world!'
+console.log('Trip ' + 'to' + ' WonderLand'); // 'Trip to WonderLand'
+console.log('Trip' + 100); // 'Trip100'
+console.log('Trip ' + undefined); // 'Trip undefined' 
+console.log('100'+20); //10020
+console.log(null + 'Trip'); // 'nullTrip'
+
+
+//use of typeof() operator
+console.log(typeof 100); // "number"
+console.log(typeof 'Lets go to Trip'); // "string"
+trip = null; 
+console.log(typeof trip); // "object"
+
+
+//use of exponentiation operator (**)
+console.log(5**2); // 25
